@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 209114943}
   - component: {fileID: 209114942}
   - component: {fileID: 209114945}
+  - component: {fileID: 209114946}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -256,6 +257,22 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &209114946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209114941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68279e2573896514bbae78356098bb97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  musicSource: {fileID: 0}
+  sfxSource: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 2ac8dceb22bb14f85b2c6c00428e1cb2, type: 3}
+  stumbleSound: {fileID: 8300000, guid: 9bd44ab111af7da4ebe4c69a832e7532, type: 3}
 --- !u!1 &458989378
 GameObject:
   m_ObjectHideFlags: 0
